@@ -1,0 +1,18 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(32, 1fr);
+    grid-template-rows: repeat(2, 100px);
+}
+
+#rectangle{
+    width:800px;
+    height:30px;
+    background:green;
+}
+
+#rectangle1{
+    width:200px;
+    height:30px;
+    background:blue;
+}
+
